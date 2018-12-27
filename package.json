@@ -1,0 +1,22 @@
+{
+	"name": "nucleusjs",
+	"description": "Javascript Library with some additional core features",
+	"version": "0.0.1",
+	"author": "Luís Ferreira",
+	"license": "LGPL-3.0",
+	"homepage": "https://www.aurorafoss.org/nucleusjs/",
+	"main": "src/index.js",
+	"bugs": {
+		"url": "https://gitlab.com/aurorafossorg/libs/standalone/nucleusjs/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@gitlab.com:aurorafossorg/libs/standalone/nucleusjs.git"
+	},
+	"devDependencies": {
+		"typescript": "^2.9.2"
+	},
+	"scripts": {
+		"tsc": "node node_modules/typescript/lib/tsc.js"
+	}
+}
